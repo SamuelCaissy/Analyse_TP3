@@ -61,7 +61,7 @@ public class CatalogContextSeed
     {
         return new List<CatalogBrand>
             {
-                new("Azure"),
+                new("Brozilla"),
                 new(".NET"),
                 new("Visual Studio"),
                 new("SQL Server"),
@@ -84,15 +84,15 @@ public class CatalogContextSeed
     {
         return new List<CatalogItem>
             {
-                new(2,2, ".NET Bot Black Sweatshirt", ".NET Bot Black Sweatshirt", 19.5M,  "http://catalogbaseurltobereplaced/images/products/Chernobyl.png"),
-                new(1,2, ".NET Black & White Mug", ".NET Black & White Mug", 8.50M, "http://catalogbaseurltobereplaced/images/products/Farheneit.png"),
-                new(2,5, "Prism White T-Shirt", "Prism White T-Shirt", 12,  "http://catalogbaseurltobereplaced/images/products/Alpha.png"),
-                new(2,2, ".NET Foundation Sweatshirt", ".NET Foundation Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/HollowPurple.png"),
-                new(3,5, "Roslyn Red Sheet", "Roslyn Red Sheet", 8.5M, "http://catalogbaseurltobereplaced/images/products/Neo.png"),
-                new(2,2, ".NET Blue Sweatshirt", ".NET Blue Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/Samurai.png"),
-                new(2,5, "Roslyn Red T-Shirt", "Roslyn Red T-Shirt",  12, "http://catalogbaseurltobereplaced/images/products/Thunderbolt.png"),
-                new(2,5, "Kudu Purple Sweatshirt", "Kudu Purple Sweatshirt", 8.5M, "http://catalogbaseurltobereplaced/images/products/Trident.png"),
-                new(1,5, "Cup<T> White Mug", "Cup<T> White Mug", 12, "http://catalogbaseurltobereplaced/images/products/Yakuza.png"),
+                new(1,1, "Protéine Chernobyl", "Protéine Chernobyl", 32,  "http://catalogbaseurltobereplaced/images/products/Chernobyl.png"),
+                new(1,1, "Protéine Farheneit", "Protéine Farheneit", 32, "http://catalogbaseurltobereplaced/images/products/Farheneit.png"),
+                new(1,2, "Créatine Alpha", "Créatine Alpha", 40,  "http://catalogbaseurltobereplaced/images/products/Alpha.png"),
+                new(1,1, "Protéine Hollow purple", "Protéine Hollow purple", 32, "http://catalogbaseurltobereplaced/images/products/HollowPurple.png"),
+                new(1,1, "Protéine Néo", "Protéine Néo", 32, "http://catalogbaseurltobereplaced/images/products/Neo.png"),
+                new(1,1, "Protéine Samurai", "Protéine Samurai", 32, "http://catalogbaseurltobereplaced/images/products/Samurai.png"),
+                new(1,1, "Protéine Thunderbolt", "Protéine Thunderbolt",  32, "http://catalogbaseurltobereplaced/images/products/Thunderbolt.png"),
+                new(1,1, "Protéine Trident", "Protéine Trident", 32, "http://catalogbaseurltobereplaced/images/products/Trident.png"),
+                new(1,1, "Protéine Yakuza", "Protéine Yakuza", 32, "http://catalogbaseurltobereplaced/images/products/Yakuza.png"),
             };
     }
 }
