@@ -2,6 +2,7 @@
   line-height: 3rem;
   position: relative;
   text-align: right;
+  color:white
 }
 
 .esh-identity-section {
@@ -10,17 +11,20 @@
 }
 
 .esh-identity-name {
-  display: inline-block;
+    display: inline-block;
+    color: white;
 }
 
 .esh-identity-name--upper {
   text-transform: uppercase;
+  color:white;
 }
 
 @media screen and (max-width: 768px) {
-  .esh-identity-name {
-    font-size: 0.85rem;
-  }
+    .esh-identity-name {
+        font-size: 0.85rem;
+        color: white;
+    }
 }
 
 .esh-identity-image {
@@ -52,7 +56,7 @@
 }
 
 .esh-identity-item:hover {
-  color: #75b918;
+  color: white;
   transition: color 0.35s;
 }
 

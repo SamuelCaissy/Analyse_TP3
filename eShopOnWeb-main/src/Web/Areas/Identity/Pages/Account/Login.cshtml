@@ -15,18 +15,18 @@
                     <hr />
                     <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Input.Email"></label>
+						<label asp-for="Input.Email" style="color:white"></label>
                         <input asp-for="Input.Email" class="form-control" />
                         <span asp-validation-for="Input.Email" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Input.Password"></label>
+						<label asp-for="Input.Password" style="color:white"></label>
                         <input asp-for="Input.Password" class="form-control" />
                         <span asp-validation-for="Input.Password" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <div class="checkbox">
-                            <label asp-for="Input.RememberMe">
+							<label asp-for="Input.RememberMe" style="color:white">
                                 <input asp-for="Input.RememberMe" />
                                 @Html.DisplayNameFor(m => m.Input.RememberMe)
                             </label>
@@ -37,19 +37,19 @@
                     </div>
                     <div class="form-group">
                         <p>
-                            <a asp-page="./ForgotPassword">Forgot your password?</a>
+                            <a asp-page="./ForgotPassword" style="color:white">Forgot your password?</a>
                         </p>
                         <p>
-                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+							<a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" style="color:white">Register as a new user</a>
                         </p>
                     </div>
-                    <p>
+					<p style="color:white">
                         Note that for demo purposes you don't need to register and can login with these credentials:
                     </p>
-                    <p>
+					<p style="color:white">
                         User:     <b>demouser@microsoft.com</b> OR <b>admin@microsoft.com</b>
                     </p>
-                    <p>
+					<p style="color:white">
                         Password: <b>Pass@word1</b>
                     </p>
                 </form>

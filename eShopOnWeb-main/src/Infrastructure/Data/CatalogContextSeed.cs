@@ -62,10 +62,7 @@ public class CatalogContextSeed
         return new List<CatalogBrand>
             {
                 new("Brozilla"),
-                new("ALPHA MALE"),
-                new("Visual Studio"),
-                new("SQL Server"),
-                new("Other")
+                new("ALPHA MALE")
             };
     }
 

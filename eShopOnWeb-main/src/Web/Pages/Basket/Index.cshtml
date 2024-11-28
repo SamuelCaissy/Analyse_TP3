@@ -3,11 +3,7 @@
 @{
     ViewData["Title"] = "Basket";
 }
-<section class="esh-catalog-hero">
-    <div class="container">
-        <img class="esh-catalog-title" src="~/images/main_banner_text.png" />
-    </div>
-</section>
+<section class="esh-catalog-hero"></section>
 
 <div class="container">
 
@@ -16,11 +12,11 @@
         <form method="post">
             <article class="esh-basket-titles row">
                 <br />
-                <section class="esh-basket-title col-xs-3">Product</section>
+                <section class="esh-basket-title col-xs-3">Produit</section>
                 <section class="esh-basket-title col-xs-3 hidden-lg-down"></section>
-                <section class="esh-basket-title col-xs-2">Price</section>
-                <section class="esh-basket-title col-xs-2">Quantity</section>
-                <section class="esh-basket-title col-xs-2">Cost</section>
+                <section class="esh-basket-title col-xs-2">Prix</section>
+                <section class="esh-basket-title col-xs-2">Quantité</section>
+                <section class="esh-basket-title col-xs-2">Coût</section>
             </article>
             <div class="esh-catalog-items row">
                 <div asp-validation-summary="All" class="text-danger"></div>
@@ -63,13 +59,13 @@
                 </div>
                 <div class="row">
                     <section class="esh-basket-item col-xs-1">
-                        <a asp-page="/Index" class="btn esh-basket-checkout text-white">[ Continue Shopping ]</a>
+                        <a asp-page="/Index" class="btn esh-basket-checkout text-white">[ Continuer à magasiner ]</a>
                     </section>
                     <section class="esh-basket-item col-xs-push-7 col-xs-4">
 
                         <button class="btn esh-basket-checkout" name="updatebutton" value="" type="submit"
                                 asp-page-handler="Update">
-                            [ Update ]
+                            [ Mettre à jour ]
                         </button>
                         <a asp-page="./Checkout" class="btn esh-basket-checkout">[ Checkout ]</a>
                     </section>
@@ -80,11 +76,11 @@
     else
     {
         <h3 class="esh-catalog-items row">
-            Basket is empty.
+            Le panier est vide, tu fais pas de gainz bro!
         </h3>
 
         <section class="esh-basket-item">
-            <a asp-page="/Index" class="btn esh-basket-checkout text-white">[ Continue Shopping ]</a>
+            <a asp-page="/Index" class="btn esh-basket-checkout text-white">[ Continuer à magasiner ]</a>
         </section>
     }
 </div>

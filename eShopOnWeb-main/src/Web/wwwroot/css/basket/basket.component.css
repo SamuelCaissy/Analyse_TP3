@@ -29,9 +29,11 @@
     height: 8rem; }
   .esh-basket-input {
     line-height: 1rem;
-    width: 100%; }
-  .esh-basket-checkout {
-    background-color: #83D01B;
+    width: 100%;
+    color:black;
+  }
+.esh-basket-checkout {
+    background-color: #e81605;
     border: 0;
     border-radius: 0;
     color: #FFFFFF;
@@ -42,9 +44,11 @@
     padding: 1rem 1.5rem;
     text-align: center;
     text-transform: uppercase;
-    transition: all 0.35s; }
+    transition: all 0.35s;
+}
     .esh-basket-checkout:hover {
-      background-color: #4a760f;
-      transition: all 0.35s; }
+        background-color: #870e04;
+        transition: all 0.35s;
+    }
     .esh-basket-checkout:visited {
       color: #FFFFFF; }
